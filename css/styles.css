@@ -1,0 +1,259 @@
+:root {
+	--maincolor: #57a4f2;
+	--secondcolor: #fff466; 
+}
+
+/* ===============================================
+   General styles
+   ============================================== */
+
+body { 
+	font-family: Helvetica,Arial,sans-serif;
+}
+
+.logoimage {
+	height: 80px;
+}
+.navbar {
+	background-color: rgba(255,255,255,0);
+	padding: 10px 0;
+}
+.navbar-toggler {
+	background-color: #000;
+}
+.navbar-nav > li > a {
+	margin-left: 5px;
+	margin-right: 5px;
+}
+.navbar .navbar-nav > li > a {
+color: #1B0B03;
+}
+.navbar .navbar-nav > .active > a {
+color: #fff;
+background-color: var(--maincolor);
+border-radius: 5px 5px 5px 5px;
+}
+
+.shrink .logoimage {
+	height: 40px;
+}
+.shrink {
+	background-color: rgba(255,255,255,1);
+	padding: 0;
+	border-bottom: 1px solid #000;
+}
+
+/* Links */
+a {
+	color: var(--maincolor);
+}
+a:hover, a:focus {
+	color: var(--secondcolor);
+}
+/* ==========================================================================
+   Wrap Sections
+   ========================================================================== */
+
+#headerwrap {
+	background: url(../images/back.jpg) no-repeat center top;
+	background-position: center center;
+	min-height: 600px;
+	width: 100%;
+	background-size: cover;
+}
+.headertext {
+	margin-top: 200px;
+	padding: 20px;
+	background-color: rgba(255,255,255,0.8);
+}
+.headertext1{
+	margin:0;
+	font-size: 28px;
+	font-weight: 500;
+	line-height: 1.5em;
+}
+.headertext2{
+	margin:0;
+	font-size: 6vw;
+	font-weight: 800;
+	line-height: 1em;
+	color:#22457d;
+}
+.headertext3{
+	margin:0;
+	padding-top: 10px;
+	font-size: 21px;
+	font-weight: 500;
+	line-height: 1.2em;
+	padding-left: 50px;
+}
+#headerwrap .btn {
+	font-weight: 500;
+	font-size: 20px;
+	margin: 50px 0;
+	background-color: var(--maincolor);
+	color: #fff;
+	border-radius: 5px;
+}
+#headerwrap .btn:hover, #headerwrap .btn:focus {
+	background-color:#fff;
+	color:#000; 
+	outline: 0px;
+	border-radius: 5px;
+}
+
+.space {
+	padding: 20px 0;
+}
+.headspace {
+	padding: 20px 0;
+}
+.pr-10 {
+	padding-right: 10px;
+}
+.pb-10 {
+	padding-bottom: 10px;
+}
+.colored {
+	color: var(--maincolor);
+}
+.secondcolored {
+	color: var(--secondcolor);
+}
+.bgcolored {
+	background-color: var(--maincolor);
+}
+.minheight80{
+	min-height: 80px;
+}
+.btn-asl{
+	background-color: var(--secondcolor);
+}
+
+#about {
+	background: #FFF;
+	padding: 100px 0;
+}
+#websiteservices {
+	background: #FFFFFF;
+	padding-top: 100px;
+}
+#mobileservices {
+	background: #FFFFFF;
+	padding: 100px 0;
+}
+
+.isotope-container {
+	overflow: hidden;
+}
+
+#portfolio {
+	background: black;
+	color: #fff;
+	padding: 50px 0 20px 0;
+}
+#contact {
+	padding-bottom: 100px;
+}
+#aboutus {
+	padding-bottom: 100px;
+}
+
+.pt100 {
+	padding-top: 100px;
+}
+
+.pb100 {
+	padding-bottom: 100px;
+}
+.ptb100 {
+	padding: 100px 0;
+}
+.ptb50 {
+	padding: 50px 0;
+}
+.ptb20 {
+	padding: 20px 0;
+}
+.pb50 {
+	padding-bottom: 50px;
+}
+
+footer {
+	background: #000;
+}
+.copyright {
+	line-height: 40px;
+	color: #FFF;
+	font-weight: 400;
+	font-size: 12px;
+}
+.copyright a {
+	color: #FFF;
+}
+#contentyear::before {
+	content: "2024";
+}
+
+ul.social-buttons li {
+	display:inline;
+}
+ul.social-buttons li a {
+	font-size: 22px;
+	color: #FFFFFF;
+	margin-right: 12px;
+}
+ul.social-buttons li a:hover, ul.social-buttons li a:focus, ul.social-buttons li a:active {
+	color: var(--maincolor);
+} 
+
+.tab{
+	padding: 0;
+	border: 1px solid #ccc;
+  background-color: var(--maincolor);
+  height: 600px;
+}
+.tab button {
+	display: block;
+	background-color: inherit;
+	color: black;
+	padding: 22px 16px;
+	width: 100%;
+	border: none;
+	outline: none;
+	text-align: left;
+	cursor: pointer;
+	transition: 0.3s;
+	font-size: 17px;
+  }
+  .tab button:hover {
+	background-color: #ddd;
+  }
+  
+  /* Create an active/current "tab button" class */
+  .tab button.active {
+	background-color: var(--secondcolor);
+  }
+
+  .tabcontent {
+	padding-left: 40px;
+  }
+  
+
+/* ==========================================
+   MEDIA QUERIES
+   ======================================== */
+@media screen and (max-width:1050px), screen and (max-device-width:1050px) {}
+
+@media only screen and (min-device-width:768px) and (max-device-width : 1024px) and (orientation : portrait) {}
+
+@media screen and (max-width:769px) {
+	.headspace {
+		padding: 50px 0;
+	}
+}
+@media screen and (max-width:480px) {
+	.headspace {
+		padding: 50px 0;
+	}
+}

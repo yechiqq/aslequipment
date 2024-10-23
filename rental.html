@@ -64,7 +64,34 @@
         <h1 class="text-center colored">Rental</h1>
         <div class="space"></div>
       </div>
+      <div class="row">
+        <div class="col-sm-2 tab">  
+          <button class="tablinks" id="tabAll">All</button>
+          <button class="tablinks" id="tabBoomLift">Boom Lift</button>
+          <button class="tablinks" id="tabScissorLift">Scissor Lift</button>
+        </div>
+        <div class="col-sm-10 tabcontent">  
+          <div id="productlist" class="isotope-container row grid-space-20">
+            <div class="col-sm-6 col-md-4 isotope-item tabAll tabBoomLift">
+              <a href="detailrental.html?SKU=JLG-340AJ">
+                <div class="card">
+                  <img class="card-img-top" src="images/340AJ_Extended_Rear_LF_SILO_390x547.jpg" alt="item">
+                  <div class="card-body"><h5 class="card-title">Articulating Boom Lift</h5></div>
+                </div>
+              </a>
+            </div>
+            <div class="col-sm-6 col-md-4 isotope-item tabAll tabBoomLift">
+              <a href="detailrental.html?SKU=JLG-460SJ">
+                <div class="card">
+                  <img class="card-img-top" src="images/460SJ-product-silo.jpg" alt="item">
+                  <div class="card-body"><h5 class="card-title">Telescopic Boom Lift</h5></div>
+                </div>
+              </a>
+            </div>
       
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 
@@ -83,5 +110,6 @@
 
   <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
   <script type="text/javascript" src="js/service.js"></script> 
+  <script type="text/javascript" src="js/category.js"></script> 
   </body>
 </html>

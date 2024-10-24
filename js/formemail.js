@@ -1,5 +1,5 @@
 const url =
-  'https://script.google.com/macros/s/AKfycbw3f-P7jHDTK-VysOC_g3rFI7TEBaFhZBQULzgteQ2ykVDWwxpczuttg2ID4lZLVLN8HA/exec';
+  'https://script.google.com/macros/s/AKfycbxWRP4a9ozrqp7cJsF7EQqaPzMP-jgPgDSXq3682WTeBymGZHp6wGrzq6-64dvGJ9T0oA/exec';
 
 $( document ).ready(function() {
 document

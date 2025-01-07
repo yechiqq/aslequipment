@@ -94,7 +94,7 @@ a:hover, a:focus {
 }
 .headertext {
 	margin-top: 450px;
-	background-color: rgba(255,255,255,0.8);
+	color: var(--secondcolor);
 }
 .headertext1{
 	margin:0;

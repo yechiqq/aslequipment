@@ -82,17 +82,25 @@ a:hover, a:focus {
 .my-float {
     margin-top: 10px;
 }
+
+.carousel-caption {
+    top: 100px;
+    bottom: auto;
+}
+
+.img-fluid:hover {
+	-ms-transform: scale(1.1); /* IE 9 */
+	-webkit-transform: scale(1.1); /* Safari 3-8 */
+	transform: scale(1.1); 
+  }
+
 /* ==========================================================================
    Wrap Sections
    ========================================================================== */
 
 #headerwrap {
-	background: url(../images/aslbanner.png) no-repeat center top;
-	background-position: center center;
 	margin-top: 100px;
-	min-height: 600px;
 	width: 100%;
-	background-size: cover;
 }
 .headertext {
 	margin-top: 450px;
@@ -100,9 +108,11 @@ a:hover, a:focus {
 }
 .headertext1{
 	margin:0;
-	font-size: 21px;
-	font-weight: 500;
+	font-size: 30px;
+	font-weight: 600;
 	line-height: 1.5em;
+	color: var(--secondcolor);
+	text-shadow: 1px 0px #000000;
 }
 .headertext2{
 	margin:0;
